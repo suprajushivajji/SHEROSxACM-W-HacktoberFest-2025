@@ -33,13 +33,10 @@ To make things simple, here’s your decryption key:
 
 ## 📥 Download the Encrypted Files
 
-You can download any **one** (or all) of the encrypted files below to attempt the decryption challenge.
-
-| File | Description | Download Link |
-|------|--------------|----------------|
-| `encrypted_file_1.b64` | Encrypted message #1 (AES-256-CBC) | [Download 🔗](./Decryption-Challenge/encrypted_file_1.b64) |
-| `encrypted_file_2.b64` | Encrypted message #2 (AES-256-CTR) | [Download 🔗](./Decryption-Challenge/encrypted_file_2.b64) |
-| `encrypted_file_3.b64` | Encrypted message #3 (ChaCha20) | [Download 🔗](./Decryption-Challenge/encrypted_file_3.b64) |
+You can download any **one** (or all) of the encrypted files below to attempt the decryption challenge from this repository.
+`encrypted_file_1.b64` 
+`encrypted_file_2.b64` 
+`encrypted_file_3.b64` 
 
 > 💡 Tip: You only need to download **one file** to participate — but decrypting all three earns bonus points!
 
