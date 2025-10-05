@@ -1,6 +1,6 @@
 # 🧠 Explain Like I'm Five
 
-Welcome to **Explain Like I’m Five** — a collaborative project where we take complex topics in data science, AI, and computing, and explain them as if we were talking to a curious five-year-old (or just a tired grad student).  
+Welcome to **Explain Like I’m Five** (ELI5)— a collaborative project where we take complex topics in data science, AI, and computing, and explain them as if we were talking to a curious five-year-old (or just a tired grad student).  
 
 Our goal is to make hard ideas beautifully simple — through short explanations, tiny code demos, and playful analogies.
 
@@ -12,11 +12,10 @@ This repository is organized into broad themes, each containing bite-sized “EL
 
 | Theme | What it explores |
 |--------|------------------|
-| 🧩 Learning | How machines learn patterns and make predictions |
-| 👁️ Computer Vision | How computers see and interpret images |
-| 💬 Natural Language Processing | How machines read, understand, and generate text |
-| 📊 Statistics & Probability | How we reason about data, uncertainty, and patterns |
-| 🤝 Ethics & Impact | How technology intersects with people and society |
+| 📊 Data Science | How we use data to find patterns, make predictions, and tell stories with numbers |
+| ⚙️ Algorithms | How computers solve problems step-by-step — from sorting to search to decision-making |
+| 🛡️ Cybersecurity | How we protect information, prevent attacks, and build safe digital systems |
+
 
 Each subfolder includes:
 - A short **explanation** (`.md`)
