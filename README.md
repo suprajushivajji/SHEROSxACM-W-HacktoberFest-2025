@@ -70,12 +70,8 @@ Use a descriptive branch name:
     Improve existing markdown or README files
     
     💡 Tip: even a single sentence improvement counts — no effort is too small!
-5. Commit and push your change
+6. Commit and push your change
   ```bash
       git add .
       git commit -m "Add <short description> by <your-name>"
       git push origin feature/<short-description>-<your-name>
-
-
-
-      
