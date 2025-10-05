@@ -20,6 +20,6 @@ Each project lives in its own folder. When contributing to a project folder, ple
 
 [project-name]-[team_name/name].[file_extension]
 
-e.g. `spotify_pop-vs-not-teamnova.ipynb`
+e.g. `spotify-pop-vs-not-teamnova.ipynb`
 
 
