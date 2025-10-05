@@ -23,8 +23,5 @@ Each subfolder includes:
 - A **tiny demo or visualization** (`.ipynb` or `.py`)
 - Optional **illustrations** or analogies
 
----
-
-## 🎯 Example Entry
 
 
