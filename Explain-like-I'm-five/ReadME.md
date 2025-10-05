@@ -19,7 +19,7 @@ This repository is organized into broad themes, each containing bite-sized “EL
 | 🤝 Ethics & Impact | How technology intersects with people and society |
 
 Each subfolder includes:
-- A short **ELI5 explanation** (`.md`)
+- A short **explanation** (`.md`)
 - A **tiny demo or visualization** (`.ipynb` or `.py`)
 - Optional **illustrations** or analogies
 
