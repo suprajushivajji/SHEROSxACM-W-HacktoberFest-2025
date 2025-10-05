@@ -57,4 +57,14 @@ If you’re on Windows, the easiest way to run Linux-style commands is through *
 Open PowerShell (as Administrator) and run:
 ```powershell
 wsl --install
+```
+This installs Ubuntu as your default Linux distribution.  
+After installation, restart your computer.
 
+### 2. Open Ubuntu (WSL)
+Search for “Ubuntu” in your Start Menu and open it.
+
+### 3. Update & install OpenSSL inside WSL:
+```bash
+sudo apt update
+sudo apt install -y openssl coreutils
