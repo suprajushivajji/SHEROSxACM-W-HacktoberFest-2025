@@ -75,3 +75,66 @@ Use a descriptive branch name:
       git add .
       git commit -m "Add <short description> by <your-name>"
       git push origin feature/<short-description>-<your-name>
+```
+---
+
+## 🌐 Submitting via GitHub Web Interface (No Command Line Needed)
+
+If you’re new to GitHub or prefer not to use the terminal, here’s how you can participate **directly through the web** 👇🏽
+
+---
+
+### 🪄 Step 1: Fork This Repository
+1. Click the **Fork** button (top-right corner of this page).  
+2. This creates **your own copy** of the repository under your GitHub account.  
+3. You’ll make your changes there — don’t worry, the original stays safe.
+
+---
+
+### 📂 Step 2: Navigate to the Correct Challenge Folder
+Inside your forked repo, click on the **folder** for the challenge you want to contribute to.  
+For example:
+- `/Blog-Posts-Challenge`
+- `/Graphic-Design-Challenge`
+- `/Explain-Like-5`
+- `/HTML-Website-Challenge`
+- `/Dataset-Challenge`
+- `/Decryption-Challenge`
+
+Each folder contains its own `README.md` with detailed instructions.  
+Follow those steps for that specific challenge.
+
+---
+
+### 📝 Step 3: Upload Your Contribution
+Once inside the correct challenge folder:
+1. Click the **“Add file” → “Upload files”** button.  
+2. Drag and drop or select your file(s) to upload.  
+3. Follow the instrcution in each of the folders on the format in which to name and include in your submission.
+4. Scroll down and click **Commit changes**.
+
+---
+
+### 🚀 Step 4: Create a Pull Request (PR)
+Once you’ve committed your file(s):
+1. You’ll see a banner that says **“Compare & Pull Request.”** Click it.  
+2. Add a short title and description for your submission.
+3. Make sure the **base repository** is `SHEROS-of-Color/SHEROSxACM-W-HacktoberFest-2025`  
+and the **base branch** is `main`.  
+4. Then click **Create Pull Request.**
+
+---
+
+### 🧩 Step 5: Wait for Review
+Once you’ve submitted your Pull Request:
+- It **won’t merge automatically** — that’s okay!
+- Please **notify one of the SHEROS or ACM-W organizers** once you are done with your submissions.
+- An organizer will review your submission, give feedback if needed, and merge it once approved.
+
+---
+
+💜 Thank you for contributing to **SHEROS × ACM-W HacktoberFest 2025!**  
+Your creativity, effort, and curiosity make open source more inclusive and inspiring for everyone. 🌍✨
+
+
+
