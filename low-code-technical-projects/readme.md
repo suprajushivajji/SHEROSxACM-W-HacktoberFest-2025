@@ -17,8 +17,9 @@ This repo celebrates **low-code exploration** — projects that are easy to unde
 ## 📂 Folder Structure
 
 Each project lives in its own folder. When contributing to a project folder, please name your file using this format:
-[project-name]-[team_name/name]
 
-e.g. `spotify_pop_classifier-ritika.ipynb`
+[project-name]-[team_name/name].[file_extension]
+
+e.g. `spotify_pop-vs-not-teamnova.ipynb`
 
 
