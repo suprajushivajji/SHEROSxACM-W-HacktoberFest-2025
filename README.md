@@ -48,7 +48,7 @@ Here’s a simple guide to get started with your first pull request:
    cd SHEROSxACM-W-HacktoberFest-2025
 3. Add the original repo as upstream:
    ```bash
-   git remote add upstream https://github.com/SHEROS-of-Color/SHEROSxACM-W-HacktoberFest-2025.git
+   git remote add upstream https://github.com/sherosofcolor/SHEROSxACM-W-HacktoberFest-2025.git
 
 4. Create a Branch for Your Work
 Use a descriptive branch name:
@@ -119,7 +119,7 @@ Once inside the correct challenge folder:
 Once you’ve committed your file(s):
 1. You’ll see a banner that says **“Compare & Pull Request.”** Click it.  
 2. Add a short title and description for your submission.
-3. Make sure the **base repository** is `SHEROS-of-Color/SHEROSxACM-W-HacktoberFest-2025`  
+3. Make sure the **base repository** is `sherosofcolor/SHEROSxACM-W-HacktoberFest-2025`  
 and the **base branch** is `main`.  
 4. Then click **Create Pull Request.**
 
