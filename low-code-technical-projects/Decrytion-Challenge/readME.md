@@ -94,7 +94,7 @@ openssl enc -d -aes-256-ctr -pbkdf2 -md sha256 \
 ```
 ### 2️⃣ AES-256-CBC
 ```bash
-penssl enc -d -aes-256-cbc -pbkdf2 -md sha256 \
+openssl enc -d -aes-256-cbc -pbkdf2 -md sha256 \
   -in encrypted_aes_cbc.b64 -base64 \
   -out YourName_decrypted_file1.txt \
   -pass pass:KHOURY_SHEROS_2025
@@ -107,3 +107,26 @@ openssl enc -d -chacha20 -pbkdf2 -md sha256 \
   -pass pass:KHOURY_SHEROS_2025
 
 ```
+
+---
+
+### 🚀 4. Upload & Submit
+
+1. Upload your text file(s) to the `/submissions/` folder.  
+2. Commit your changes.  
+3. Open a **Pull Request (PR)** to submit your work.
+
+You can decrypt and submit **one, two, or all three** files.  
+🎁 Bonus recognition if you decrypt all three successfully!
+
+---
+
+### ✅ Quick Recap
+- 📄 File name format: `FullName_decryptedFileNumber.txt`  
+- 🧠 Include: Algorithm used + Decrypted message  
+- 📤 Upload to: `Decryption-Challenge/submissions/`  
+- 🔄 Submit via Pull Request (PR)
+
+---
+
+✨ That’s it! You’ve officially contributed to the Khoury SHEROS Hacktoberfest 2025 Encryption Challenge!
