@@ -12,9 +12,9 @@ Just follow the steps below carefully and you’ll uncover the hidden messages i
 
 You have **three encrypted files**, each protected using a different encryption algorithm:
 
-AES-256-CBC
-AES-256-CTR
-ChaCha20
+1) AES-256-CBC
+2) AES-256-CTR
+3) ChaCha20
 
 Your goal:  
 ✅ Decrypt atleast one of the files using OpenSSL  
