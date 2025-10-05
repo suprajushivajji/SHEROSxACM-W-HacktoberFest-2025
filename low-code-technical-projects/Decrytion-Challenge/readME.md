@@ -31,12 +31,18 @@ To make things simple, here’s your decryption key:
 
 ---
 
-## 📦 Files to Download
+## 📥 Download the Encrypted Files
 
-Download these files from this repository:  
-- [`encrypted_aes_cbc.b64`](encrypted_aes_cbc.b64)  
-- [`encrypted_aes_ctr.b64`](encrypted_aes_ctr.b64)  
-- [`encrypted_chacha20.b64`](encrypted_chacha20.b64)  
+You can download any **one** (or all) of the encrypted files below to attempt the decryption challenge.
+
+| File | Description | Download Link |
+|------|--------------|----------------|
+| `encrypted_file_1.b64` | Encrypted message #1 (AES-256-CBC) | [Download 🔗](./Decryption-Challenge/encrypted_file_1.b64) |
+| `encrypted_file_2.b64` | Encrypted message #2 (AES-256-CTR) | [Download 🔗](./Decryption-Challenge/encrypted_file_2.b64) |
+| `encrypted_file_3.b64` | Encrypted message #3 (ChaCha20) | [Download 🔗](./Decryption-Challenge/encrypted_file_3.b64) |
+
+> 💡 Tip: You only need to download **one file** to participate — but decrypting all three earns bonus points!
+
 
 Place all files in the same working directory on your system (e.g., your Desktop or a Hacktoberfest folder).
 
@@ -72,4 +78,37 @@ sudo apt install -y openssl coreutils
 ### 4. Confirm Installation:
 ```bash
 openssl version
+```
+
+---
+## 🔓 How to Decrypt
+
+Each file is **Base64-encoded ciphertext**.  
+OpenSSL can read Base64 directly using the `-base64` flag.  
+
+Run these commands **one at a time** — use the provided passphrase.
+
+---
+
+### 1️⃣ AES-256-CTR
+```bash
+openssl enc -d -aes-256-ctr -pbkdf2 -md sha256 \
+  -in encrypted_aes_ctr.b64 -base64 \
+  -out YourName_decrypted_file2.txt \
+  -pass pass:KHOURY_SHEROS_2025
+```
+### 2️⃣ AES-256-CBC
+```bash
+penssl enc -d -aes-256-cbc -pbkdf2 -md sha256 \
+  -in encrypted_aes_cbc.b64 -base64 \
+  -out YourName_decrypted_file1.txt \
+  -pass pass:KHOURY_SHEROS_2025
+```
+### 3️⃣ ChaCha20
+```bash
+openssl enc -d -chacha20 -pbkdf2 -md sha256 \
+  -in encrypted_chacha20.b64 -base64 \
+  -out YourName_decrypted_file3.txt \
+  -pass pass:KHOURY_SHEROS_2025
+
 ```
