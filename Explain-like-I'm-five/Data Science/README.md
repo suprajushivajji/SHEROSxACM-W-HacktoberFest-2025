@@ -1,6 +1,8 @@
-### 1️⃣ Data Science
+## 1️⃣ Data Science
 
 From curiosity to computation — how we turn raw information into intelligent insight.
+
+#### Topics:
 
 - **Bias and Variance Trade-off** – The eternal tug-of-war between simplicity and accuracy.  
   *Like choosing between a simple guess that works most of the time, and a complicated one that works only on your homework data.*
