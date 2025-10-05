@@ -19,7 +19,7 @@ You have **three encrypted files**, each protected using a different encryption 
 | `encrypted_chacha20.b64` | ChaCha20 |
 
 Your goal:  
-✅ Decrypt all three files using OpenSSL  
+✅ Decrypt atleast one of the files using OpenSSL  
 ✅ Submit your decrypted text file(s) in the correct format  
 
 ---
@@ -68,3 +68,8 @@ Search for “Ubuntu” in your Start Menu and open it.
 ```bash
 sudo apt update
 sudo apt install -y openssl coreutils
+```
+### 4. Confirm Installation:
+```bash
+openssl version
+```
