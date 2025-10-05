@@ -40,7 +40,7 @@ Pick one prompt that resonates with you — or create your own inspired by these
 ## 🪄 How to Contribute
 
 1. **Fork** this repository to your own GitHub account.  
-2. **Create a new file** in the `Blog-post/Blog-submissions/` folder.  
+2. **Create a new file** in the `Blog-post/` folder.  
    - Name your file: `YourName_Title.txt`  
    - Example: `NeeharikaEddula_ImposterSyndrome.txt`
 3. **Write your blog post** in plain text (or markdown if you prefer).  
