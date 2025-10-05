@@ -112,21 +112,19 @@ openssl enc -d -chacha20 -pbkdf2 -md sha256 \
 
 ### 🚀 4. Upload & Submit
 
-1. Upload your text file(s) to the `/submissions/` folder.  
-2. Commit your changes.  
-3. Open a **Pull Request (PR)** to submit your work.
+1. **Fork this repository** to your own GitHub account. 
+2. Upload your text file(s) to the `/Decryption-Challenge/` folder.  
+3. Commit your changes.  
+4. Open a **Pull Request (PR)** to submit your work.
 
 You can decrypt and submit **one, two, or all three** files.  
 🎁 Bonus recognition if you decrypt all three successfully!
 
 ---
 
-### ✅ Quick Recap
-- 📄 File name format: `FullName_decryptedFileNumber.txt`  
-- 🧠 Include: Algorithm used + Decrypted message  
-- 📤 Upload to: `Decryption-Challenge/submissions/`  
-- 🔄 Submit via Pull Request (PR)
+- 📄 File name format: `FullName_decryptedFileNumber.txt` (`Eg: NeeharikaEddula_decryptedFile1.txt`)  
+- 🧠 Include: Algorithm used + Decrypted message in the txt file.
 
 ---
 
-✨ That’s it! You’ve officially contributed to the Khoury SHEROS Hacktoberfest 2025 Encryption Challenge!
+✨ That’s it! Happy Hacking!
