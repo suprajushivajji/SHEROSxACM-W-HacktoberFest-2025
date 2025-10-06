@@ -1,0 +1,6 @@
+git remote show origin
+git remote show upstream
+
+git checkout -b feature/name
+-b creates the branch and checks out
+
