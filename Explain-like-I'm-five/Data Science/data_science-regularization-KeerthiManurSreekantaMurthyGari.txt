@@ -1,0 +1,19 @@
+Regularization: Teaching Models to Stay Humble
+
+Imagine a student who memorizes every practice problem perfectly but bombs the actual test—that's overfitting. 
+Regularization prevents this by adding a "complexity penalty" to the model's learning process, essentially saying: 
+"Be accurate, but don't get too fancy."
+
+There are two main approaches:
+
+L2 Regularization (Ridge) penalizes the sum of squared weights, gently shrinking all parameters toward zero. 
+It's like spreading your bets across all features—nothing gets ignored, but nothing dominates either.
+
+L1 Regularization (Lasso) penalizes the sum of absolute weights, often driving some parameters to *exactly zero*.
+This acts as automatic feature selection, Marie Kondo-ing your model by keeping only what truly matters.
+
+Both add a term `λ × penalty` to the loss function, where λ (lambda) controls the strictness. 
+Higher λ means simpler models; too high causes underfitting, too low brings back overfitting.
+
+The beauty? Regularization forces models to generalize rather than memorize, trading a tiny bit of training 
+accuracy for much better real-world performance.
