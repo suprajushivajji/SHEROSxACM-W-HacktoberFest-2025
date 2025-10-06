@@ -4,7 +4,7 @@ Imagine a student who memorizes every practice problem perfectly but bombs the a
 Regularization prevents this by adding a "complexity penalty" to the model's learning process, essentially saying: 
 "Be accurate, but don't get too fancy."
 
-There are two main approaches:
+There are two main approaches: 
 
 L2 Regularization (Ridge) penalizes the sum of squared weights, gently shrinking all parameters toward zero. 
 It's like spreading your bets across all features—nothing gets ignored, but nothing dominates either.
