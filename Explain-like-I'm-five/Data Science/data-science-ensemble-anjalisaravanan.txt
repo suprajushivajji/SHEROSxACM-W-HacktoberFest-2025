@@ -1,0 +1,13 @@
+               Ensemble Methods – Combining multiple weak learners into one strong decision-maker.
+
+Imagine a group of friends working on a school project that must be presented in front of an audience. 
+Each friend has their own strength — one might be great at designing slides, another at coordinating the team, 
+one at brainstorming ideas, and another at organizing the information. When they all work together, 
+the project turns out amazing — much better than if just one person did everything alone.
+
+This is exactly how ensemble methods work in machine learning. Instead of relying on a single model to make predictions, 
+we combine multiple smaller models, called weak learners. By combining their individual strengths, 
+the ensemble creates a model that is much more accurate and reliable.
+
+In short, ensemble methods are team work among models, just like a group of friends working together to 
+create a successful project.
